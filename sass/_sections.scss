@@ -1,0 +1,32 @@
+.section {
+  &__hero {
+    padding: 1rem 2rem 2rem 5rem;
+  }
+  &__intro {
+    padding-bottom: 6rem;
+    margin: 0 auto;
+    width: 70%;
+    position: relative;
+    min-height: 80vh;
+  }
+  &__features {
+    padding: 5rem 2rem;
+    background-color: #020202;
+    min-height: 90vh;
+  }
+  &__homes {
+    height: 100vh;
+    background-image: linear-gradient(to right, #000000db, #000000d6),
+      url("../img/pang-yuhao-wCi28eq8TF4-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5rem 4rem;
+  }
+  &__buy {
+    padding: 8rem 3rem;
+  }
+  &__defence {
+    padding: 2rem 3rem;
+    background-color: #001220;
+  }
+}

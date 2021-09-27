@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+    <title>Space Exploration</title>
+  </head>
+  <style>
+    html {
+      font-size: 100% !important;
+    }
+    main {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .heading__secondary-book {
+      font-size: 40px;
+      margin-top: 2rem;
+    }
+    .heading__tertiary-book {
+      font-size: 30px;
+    }
+    form,
+    .form-des {
+      width: 50%;
+    }
+    .form-des {
+      margin: 0 auto;
+    }
+  </style>
+  <body>
+    <h1 class="heading heading__secondary heading__secondary-book mb-xl">
+      Contact Us
+    </h1>
+    <main>
+      <div class="form-des">
+        <h3 class="heading heading__tertiary heading__tertiary-book">
+          About Us
+        </h3>
+        <p class="text">
+          I am a Developer.I and my bother develops games,website
+          and apps.We have won many competitions
+          using these apps,games etc.
+          We Hope U Like This One To...
+        </p>
+        <a href="./index.html" class="btn text-light border-bottom">
+          &larr; Go back</a
+        >
+      </div>
+      <form name="book" action="#" netlify class="needs-validation" novalidate>
+        <p class="form-control-plaintext text-light">
+          Please fill in your details below and our concerned team will reach
+          out to you!
+        </p>
+        <div class="mb-3">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control bg-dark text-light"
+            placeholder="My name is ......."
+            required
+          />
+          <div class="valid-feedback">Nice and beyond!</div>
+          <div class="invalid-feedback">How come you dont have a name 🤔.</div>
+        </div>
+        <div class="mb-3">
+          <label for="Email" class="form-label text-light">Email address</label>
+          <input
+            type="email"
+            class="form-control bg-dark text-light"
+            id="Email"
+            placeholder="name@example.com"
+            required
+          />
+          <div class="valid-feedback">Nice and beyond!</div>
+          <div class="invalid-feedback">Please enter a valid email id.</div>
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label" required>Phone No.</label>
+          <input
+            class="form-control bg-dark text-light"
+            type="tel"
+            name="phone"
+            id="phone"
+            pattern="[7-9]{1}[0-9]{9}"
+            required
+          />
+          <div class="valid-feedback">Nice and beyond!</div>
+          <div class="invalid-feedback">Oh oh this doesn't look good.</div>
+        </div>
+        <input type="submit" class="btn btn-primary" value="Submit!" />
+      </form>
+    </main>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        "use strict";
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll(".needs-validation");
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/twinkle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+    <title>SpaceXexploration</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navigation navigation__flex">
+        <div class="navigation__container">
+          <div class="navigation__logo-container">
+            <img
+            draggable="false"
+              src="img/logo.png"
+              alt="Logo"
+              class="navigation__logo"
+            />
+            <h1 class="heading heading__nav">SpaceExpo</h1>
+          </div>
+          <div class="navigation__links-container">
+            <a href="#" data-to=".section__features" class="link navigation__link navigation__link-1"
+              >Tours</a
+            >
+            
+          
+            
+          </div>
+        </div>
+        <div class="navigation__cta-container">
+          <a href="./book.html" class="link navigation__cta">Contact Us!</a>
+        </div>
+      </div>
+    </nav>
+    <section class="section__hero">
+      <div class="hero">
+        <div>
+          <h1 class="heading heading__primary mb-xl">
+            Why wait on Earth? <br />
+            <span>When you have the whole universe to explore!</span>
+          </h1>
+
+          <button class="btn_my btn__cta">Let Explore!<span>&rarr;</span></button>
+        </div>
+        <div></div>
+      </div>
+      <!-- <div class="particle-js"></div> -->
+      <canvas id="canvas"></canvas>
+    </section>
+    <div class="wave">
+      <img class="wave__img" draggable="false" src="./wave-s1.svg" alt="wave" />
+    </div>
+    <!-- INCREASE FONTsize  -->
+
+    <section class="section__intro">
+      <div>
+        <h2 class="heading heading__secondary">What is Space?</h2>
+        <div class="intro__grid mb-lar">
+          <img
+          draggable="false"
+            class="intro__image"
+            src="https://imagesvc.meredithcorp.io/v3/jumpstartpure/image?url=https://cf-images.us-east-1.prod.boltdns.net/v1/static/3281700261001/3bcf8022-d9c4-43a0-8cdc-14158c4994f4/5c4dd1e1-5773-42f0-b661-61780dbb4cf4/1280x720/match/image.jpg&w=1280&h=720&q=90&c=cc"
+            alt="Our Ship"
+          />
+
+          <div class="intro__text">
+            <!-- prettier-ignore -->
+            <svg class="mb-m" xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="#ff2a6d" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><path d="M32,216V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V216l-32-16-32,16-32-16L96,216,64,200Z" fill="none" stroke="#ff2a6d" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></path><line x1="144" y1="112" x2="192" y2="112" fill="none" stroke="#ff2a6d" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></line><line x1="144" y1="144" x2="192" y2="144" fill="none" stroke="#ff2a6d" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></line><rect x="64" y="96" width="48" height="64" stroke-width="12" stroke="#ff2a6d" stroke-linecap="round" stroke-linejoin="round" fill="none"></rect></svg>
+            <h3 class="heading heading__tertiary mb-lar">
+              SOMEWHERE SOMETHING INCREDIBLE IS WAITING TO BE KNOWN.
+            </h3>
+            <p>
+              Space exploration is the use of astronomy and space technology to explore outer space. While the exploration of space is carried out mainly by astronomers with telescopes, its physical exploration though is conducted both by unmanned robotic space probes and human spaceflight.
+            </p>
+          </div>
+        </div>
+        <div class="intro__grid mb-lar">
+          <div class="intro__text intro__text-2">
+            <svg
+              class="mb-m"
+              xmlns="http://www.w3.org/2000/svg"
+              width="55"
+              height="55"
+              fill="#ff2a6d"
+              viewBox="0 0 256 256"
+            >
+              <rect width="256" height="256" fill="none"></rect>
+              <path
+                d="M45.12859,196.01674a8.01266,8.01266,0,0,0,9.97356,5.86223,273.90053,273.90053,0,0,1,145.746-.0138,8.01268,8.01268,0,0,0,9.97132-5.85941l25.48872-108.3169a8,8,0,0,0-11.03641-9.143L174.688,101.02754a8,8,0,0,1-10.24237-3.42535l-29.4524-53.01433a8,8,0,0,0-13.98652,0L91.55434,97.60219A8,8,0,0,1,81.312,101.02754L30.72054,78.54246a8,8,0,0,0-11.03717,9.13973Z"
+                fill="none"
+                stroke="#ff2a6d"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="12"
+              ></path>
+              <path
+                d="M95.99993,161.6787a305.83767,305.83767,0,0,1,64.00009,0"
+                fill="none"
+                stroke="#ff2a6d"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="12"
+              ></path>
+            </svg>
+            <h3 class="heading heading__tertiary mb-lar">
+              What Do You Mean By Space?
+            </h3>
+            <p>
+              A continuous area or expanse which is free, available, or unoccupied.   
+            </p>
+          </div>
+          <img
+          draggable="false"
+            class="intro__image intro__image-2"
+            src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2021/02/shutterstock_720989659-1.jpg"
+            alt="Our Ship"
+          />
+        </div>
+        <div class="intro__grid mb-lar">
+          <img
+          draggable="false"
+            class="intro__image"
+            src="https://wallpapercave.com/wp/wp2461878.jpg"
+            alt="Our Ship"
+          />
+
+          <div class="intro__text">
+            <svg
+              class="mb-m"
+              xmlns="http://www.w3.org/2000/svg"
+              width="55"
+              height="55"
+              fill="#ff2a6d"
+              viewBox="0 0 256 256"
+            >
+              <rect width="256" height="256" fill="none"></rect>
+              <circle
+                cx="128"
+                cy="128"
+                r="88"
+                fill="none"
+                stroke="#ff2a6d"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="12"
+              ></circle>
+              <path
+                d="M184.17224,60.25854c27.75785-7.55343,48.54608-6.88109,54.679,3.74146C249.897,83.1317,209.22146,127.29479,148,162.641S28.19444,211.1317,17.14875,192c-6.13187-10.6207,3.67551-28.95548,24.08867-49.21359"
+                fill="none"
+                stroke="#ff2a6d"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="12"
+              ></path>
+            </svg>
+            <h3 class="heading heading__tertiary mb-lar">
+              Your only chance to explore space
+            </h3>
+            <p>
+              With our wide selection of homes available on 50+ different planets you can start a new life, completely diffrent from that of the Earth.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg
+        id="intro__svg"
+        viewBox="0 0 900 900"
+        width="900"
+        height="900"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <g transform="translate(405.64643397888545 504.40275408196226)">
+          <path
+            id="blob1"
+            d="M215 -205.2C290 -140 370 -70 378 8C386 86 322.1 172.1 247.1 209.6C172.1 247.1 86 236 10.3 225.8C-65.5 215.5 -131.1 206.1 -182.2 168.6C-233.4 131.1 -270.2 65.5 -284.1 -13.9C-298 -93.3 -289 -186.7 -237.8 -251.8C-186.7 -317 -93.3 -354 -11.7 -342.3C70 -330.7 140 -270.3 215 -205.2"
+            fill="#BB004B"
+          ></path>
+        </g>
+        <g transform="translate(469.40352974752 381.61775798802296)">
+          <path
+            id="blob2"
+            style="visibility: hidden"
+            d="M221.2 -199.7C280.2 -162.2 317.1 -81.1 327.1 10C337.1 101.1 320.2 202.2 261.2 271.7C202.2 341.2 101.1 379.1 16.6 362.5C-67.9 345.9 -135.8 274.8 -210.8 205.3C-285.8 135.8 -367.9 67.9 -368.6 -0.7C-369.3 -69.3 -288.6 -138.6 -213.6 -176.1C-138.6 -213.6 -69.3 -219.3 5.9 -225.2C81.1 -231.1 162.2 -237.2 221.2 -199.7"
+            fill="#BB004B"
+          ></path>
+        </g>
+      </svg>
+      <svg
+        id="intro__svg-2"
+        viewBox="0 0 900 900"
+        width="900"
+        height="900"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <g transform="translate(405.64643397888545 504.40275408196226)">
+          <path
+            id="blob3"
+            d="M215 -205.2C290 -140 370 -70 378 8C386 86 322.1 172.1 247.1 209.6C172.1 247.1 86 236 10.3 225.8C-65.5 215.5 -131.1 206.1 -182.2 168.6C-233.4 131.1 -270.2 65.5 -284.1 -13.9C-298 -93.3 -289 -186.7 -237.8 -251.8C-186.7 -317 -93.3 -354 -11.7 -342.3C70 -330.7 140 -270.3 215 -205.2"
+            fill="#BB004B"
+          ></path>
+        </g>
+        <g
+          transform="translate(427.6042796818992 307.25126707861)"
+          style="transition: all 0.3s ease 0s"
+        >
+          <path
+            style="visibility: hidden"
+            id="blob4"
+            d="M172.9 -181.1C214.7 -131.1 232.9 -65.5 223.3 -9.5C213.8 46.4 176.5 92.9 134.7 142.2C92.9 191.5 46.4 243.8 4.6 239.2C-37.2 234.6 -74.5 173.1 -110.6 123.8C-146.8 74.5 -181.9 37.2 -181 0.9C-180 -35.4 -143 -70.7 -106.9 -120.7C-70.7 -170.7 -35.4 -235.4 15.1 -250.4C65.5 -265.5 131.1 -231.1 172.9 -181.1"
+            fill="#BB004B"
+            style="transition: all 0.3s ease 0s"
+          ></path>
+        </g>
+      </svg>
+    </section>
+    <div class="wave">
+      <img class="wave__img wave__img-2" draggable="false" src="./wave-s2.svg" alt="wave" />
+    </div>
+    <section class="section__features">
+      <h2 class="heading heading__secondary">Our bestselling Tours</h2>
+      <p class="heading__secondary-text">Below are our best selling tours. Hover your mouse over the card to translate from the planet's language and <br> Hover over the image to play walkthrough.</p>
+      <div class="features__container">
+
+        <div class="features mb-xl">
+          <div
+            class="features__img"
+          />
+          <video  muted loop>
+            <source src="img/Ego.mp4" type="video/mp4">
+            Your browser doesn't support videos :(
+          </video>
+        </div>
+          <div class="features__des">
+            <h3 class="heading heading__tertiary mb-lar" data-des="EGO" data-type="head">⟒☌⍜</h3>
+            <p class="mb-lar" data-type="p" data-des="Ego is the home to the most creative species of the world. This planet's architechture resembles that of the ancient greeks. A must visit planet for all human beings.">
+              ⟟ ⊑⏃⏁⟒ ⏁⊑⏃⏁ ⟟ ⊑⏃⎐⟒ ⋏⍜ ☊⌰⎍⟒ ⊑⍜⍙ ⟟ ⎎⟒⟒⌰ ⟟ ☊⏃⋏ ⏃⌰⍙⏃⊬⌇ ⊑⏃⎐⟒ ⋔⊬ ⏚⏃⏚⊬ ⏚⏃⏚⊬ ⎅⏃⎅⎅⊬ ⋔⍜⋔⋔⊬ ⋔⍜⋔⋔⊬ ⊑⟟ ⊑⟟ ⎅⏃⎅⎅⊬ ⋔⍜⋔⋔⊬ ⎅⏃⎅⎅⊬ ⊑⟟ ⎅⏃⎅⎅⊬ ⎅⏃⎅⎅
+            </p>
+            <ul class="features__list">
+              <li> <img draggable="false" src="./caret-right.svg" alt="svg"> Duration: 2 years</li>
+              <li> <img draggable="false" src="./caret-right.svg" alt="svg"> Cost: ₪ 5,00,000</li>
+              <li> <img draggable="false" src="./caret-right.svg" alt="svg"> Spaceship: Beyond-001</li>
+              <li> <img draggable="false" src="./caret-right.svg" alt="svg"> Locations: Naboo, Romiana</li>
+            </ul>
+            <button class="btn_my features__btn">Learn More &rarr;</button>
+          </div>
+        </div>
+
+        <div class="features mb-xl">
+          <div
+            class="features__img-2"
+          />
+        <video autoplay muted loop>
+          <source src="img/Valerian.mp4" type="video/mp4">
+          Your browser doesn't support videos :(
+        </video>
+        </div>
+          <div class="features__des">
+            <h3 class="heading heading__tertiary mb-lar" data-des="Valerian" data-type="head">ṆŌṢĀṀĪṀĀ</h3>
+            <p class="mb-lar" data-type="p" data-des="It is the home to people from the whole milky way galaxy, who have settled down here. It is an overall industrial power house of the milky way.">
+              L̥oean kw ḥā fis ēasaan l̥e ṇiam het śe īpsum ṇai et āñū ṭr̥ās ḥnam ḥśā æṭ wōl̥ ṇām īus ṇō ṭhet śey ñou r̥ik r̥ol̥l̥ed ṇubś ṅaem kaō.
+            </p>
+            <ul class="features__list">
+              <li> <img draggable="false" src="./caret-right.svg" alt="svg"> Duration: 2 year</li>
+              <li> <img draggable="false" src="./caret-right.svg" alt="svg"> Cost: ₪ 2,00,000</li>
+              <li> <img draggable="false" src="./caret-right.svg" alt="svg"> Spaceship: GHOST-007</li>
+              <li> <img draggable="false" src="./caret-right.svg" alt="svg"> Locations: The HQ, Wild Hunt</li>
+            </ul>
+            <button class="btn_my features__btn">Learn More &rarr;</button>
+          </div>
+        </div>
+      <div class="features mb-xl">
+        <div
+          class="features__img features__img-3"
+        />
+        <span>Walkthrough of the planet not available.</span>
+        </div>
+        <div class="features__des">
+          <h3 class="heading heading__tertiary mb-lar" data-des="BETAZED" data-type="head">⏚⟒⏁⏃⋉⟒⎅</h3>
+          <p class="mb-lar" data-type="p" data-des="Betazed is the home to the people who look like humans but surely aren't. Visit this planet to experience the perfect balance of technology that defies all laws of physics and nature. Which the Earth failed to accomodate.">
+            ⌰⍜⍀⟒⋔ ⟟⌿⌇⎍⋔ ⎅⍜⌰⍜⍀ ⌇⟟⏁ ⏃⋔⟒⏁ ☊⍜⋏⌇⟒☊⏁⟒⏁⎍⍀ ⏃⎅⟟⌿⟟⌇⟟☊⟟⋏☌ ⟒⌰⟟⏁. ⟟⋏⎐⟒⋏⏁⍜⍀⟒ ⊑⏃⍀⎍⋔ ⋏⎍⌰⌰⏃, ⋏⍜⋏, ☊⍜⍀⌿⍜⍀⟟⌇ ⟟⎍⍀ ☊⍜⍀⌿⍜⍀⟟⌇ ⟟⎍⍀☊⍜⍀⌿⍜⍀⟟⌇ ⟟⎍⍀
+          </p>
+          <ul class="features__list">
+            <li> <img draggable="false" src="./caret-right.svg" alt="svg"> Duration: 1 year</li>
+            <li> <img draggable="false" src="./caret-right.svg" alt="svg"> Cost: ₪ 1,00,000</li>
+            <li> <img draggable="false" src="./caret-right.svg" alt="svg"> Spaceship: Falcon-2F17</li>
+            <li> <img draggable="false" src="./caret-right.svg" alt="svg"> Locations: Ēḥāś, L̥r̥æāṇ</li>
+          </ul>
+          <button class="btn_my features__btn">Learn More &rarr;</button>
+        </div>
+      </div>
+
+        </div>
+      </div>
+    </section>
+    <div class="wave">
+      <img class="wave__img wave__img-none" draggable="false" src="img/wave-s4.svg" alt="wave" />
+    </div>
+    <section class="section__defence">
+      <h1 class="heading heading__secondary">Our Planetary defence system</h1>
+      <p class="heading__secondary-text">Here is a look at our all-new planetary defence system! <br> ( <b>Hover/Click</b> over the image to play the video )</p>
+      <div class="defence__grid">
+        <div class="defence__des">
+          <h3 class="heading heading__tertiary mb-lar">Why do you need the defence system?</h3>
+          <p class="mb-xl">Eversince humans have started space travels we have seen that other planets are very advanced in terms of weaponry and defence systems. By far Every planet has a total shield protecting it and its residents except earth. <br><br> So to play our part <b>Beyond</b> has developed <b>Argon-255</b> a planetary defence system exclusively for Earth and only Earth.</p>
+          <ul class="features__list defence__list">
+            <li> <img draggable="false" src="img/check.svg" alt="svg"> Deploy Time: 2 minutes</li>
+            <li> <img draggable="false" src="img/check.svg" alt="svg"> Self Activated</li>
+            <li> <img draggable="false" src="img/check.svg" alt="svg"> Can retain 5 nuclear bombs at once</li>
+            <li> <img draggable="false" src="img/check.svg" alt="svg"> Only the United Nations can buy</li>
+            <li> <img draggable="false" src="img/check.svg" alt="svg"> Solar Energy + Fallback: Electricity</li>
+            <li> <img draggable="false" src="img/x.svg" alt="svg"> Cannot work solo</li>
+          </ul>
+        </div>
+        <div class="defence__img">
+          <video loop>
+            <source src="img/Planetary-Defence-mechanism.mp4">
+          </video>
+        </div>
+      </div>
+    </section>
+    <section class="section__homes">
+      <h2 class="heading heading__secondary">Our Luxurious Inter-Planet Homes</h2>
+      <p class="heading__secondary-text">Not intrested in travelling? Start a new life on a whole new planet from scratch!</p>
+      <div class="home__grid">
+        <div class="home">
+          <div class="home__img home__img-1"></div>
+          <div class="home__des">
+            <h3 class="heading heading__tertiary">The Terrace
+              <p class="home__text">Its name decribes it precisely, the Terrace is a modern condo looking like a terrace! </p>
+            </h3>
+            
+            <ul class="home__features">
+              <li> <img draggable="false" src="img/wrench.svg" alt="svg">5 years</li>
+              <li> <img draggable="false" src="img/cost.svg" alt="svg">₪ 1,00,00,000</li>
+              <li> <img draggable="false" src="img/map-pin.svg" alt="svg">Mars</li>
+            <li> <img draggable="false" src="./caret-right.svg" alt="svg"> Type: Condo</li>
+            </ul>
+          </div>
+          <button class="home__cta">Book Now!</button>
+        </div>
+        <div class="home">
+          <div class="home__img home__img-2"></div>
+          <div class="home__des">
+            <h3 class="heading heading__tertiary">The Naboo Pyramid
+              <p class="home__text">Made by the Naboo natives who's architecture resembles that of ancient greece.</p>
+            </h3>
+            
+            <ul class="home__features">
+              <li> <img draggable="false" src="img/wrench.svg" alt="svg">5 years</li>
+              <li> <img draggable="false" src="img/cost.svg" alt="svg">₪ 1,00,00,000</li>
+              <li> <img draggable="false" src="img/map-pin.svg" alt="svg">Ego</li>
+            <li> <img draggable="false" src="./caret-right.svg" alt="svg"> Type: Pyramid</li>
+            </ul>
+          </div>
+          <button class="home__cta">Book Now!</button>
+        </div>
+        <div class="home">
+          <div class="home__img home__img-3"></div>
+          <div class="home__des">
+            <h3 class="heading heading__tertiary">The InterStellar
+              <p class="home__text">Why live on one planet when you can visit all planets while staying in your home!</p>
+            </h3>
+            
+            <ul class="home__features">
+              <li> <img draggable="false" src="img/wrench.svg" alt="svg">Pre-built</li>
+              <li> <img draggable="false" src="img/cost.svg" alt="svg">₪ 5,00,00,000</li>
+              <li> <img draggable="false" src="img/map-pin.svg" alt="svg">Up to You</li>
+            <li> <img draggable="false" src="./caret-right.svg" alt="svg">Spaceship</li>
+            </ul>
+          </div>
+          <button class="home__cta">Book Now!</button>
+        </div>
+
+      </div>
+    </section>
+    <section class="section__buy">
+      <!-- Latest compiled and minified CSS -->
+<!-- https://xstore.8theme.com/demos/hosting/-->
+
+
+<!--Item slider text-->
+<h1 class="heading heading__secondary">Souvenirs</h1>
+<p class="heading__secondary-text mb-xl">Not intrested in buying a house too? Buy yourself or your loved ones some luxurious souvenirs</p>
+
+<div class="container">
+  <div class="row" id="slider-text">
+    <div class="col-md-6" >
+      <h2></h2>
+    </div>
+  </div>
+</div>
+<style>
+
+</style>
+<!-- Item slider-->
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <div class="carousel carousel-showmanymoveone slide" id="itemslider">
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#" class="slider__img"><img src="img/Slider/gold-dust.jpeg" class="img-responsive center-block"></a>
+              <h4 class="text-center">Naboo gold dust (24C)</h4>
+              <h5 class="text-center">₪ 10,000</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#" class="slider__img"><img src="img/Slider/super-comp.jpg" class="img-responsive center-block"></a>
+              <h4 class="text-center">Valerian's Super Computers</h4>
+              <h5 class="text-center">₪ 40,000</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#" class="slider__img"><img src="img/Slider/Diamond.jpeg" class="img-responsive center-block"></a>
+              <h4 class="text-center">Betazed diamonds</h4>
+              <h5 class="text-center">₪ 10,000</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#" class="slider__img"><img src="img/Slider/ego-statue.jpg" class="img-responsive center-block"></a>
+              <h4 class="text-center">Ego's Statues</h4>
+              <h5 class="text-center">₪ 40,000</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#" class="slider__img"><img src="img/Slider/jetpack-2.jpg" class="img-responsive center-block"></a>
+              <h4 class="text-center">Jetpack</h4>
+              <h5 class="text-center">₪ 4,000</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#" class="slider__img"><img src="img/Slider/bow.jpg" class="img-responsive center-block"></a>
+              <h4 class="text-center">Centaurian Bow n Arrow</h4>
+              <h5 class="text-center">₪ 10,000</h5>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="slider-control">
+        <a class="left carousel-control" href="#itemslider" data-slide="prev"><img src="img/slide-left.svg" alt="Left" class="img-responsive"></a>
+        <a class="right carousel-control" href="#itemslider" data-slide="next"><img src="img/slide-right.svg" alt="Right" class="img-responsive"></a>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+    <footer class="footer">
+      <img src="img/logo.png" alt="Footer Logo" class="footer__logo">
+      <div class="footer__des">
+        <ul class="footer__list">
+          <li><a href="#" class="footer__link">Home</a></li>
+         <li><a href="#" class="footer__link">Tours</a></li>
+         <li><a href="#" class="footer__link">Request a Quote</a></li>
+         <li><a href="#" class="footer__link">About Us</a></li>
+         <li><a href="#" class="footer__link">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer__copy">
+        &copy; <b>Beyond 3020</b>, All rights reserved. 
+        <br> This website was made by <span class="footer__span">Eashaan Thakur (V04)</span>
+        <br>
+        <br>
+        Amrita Vidyalayam New Delhi (V04):
+        <br>
+        <ul class="footer__list-2">
+          <li>Aniket Anuraj XC</li>
+          <li>Eashaan Thakur XC</li>
+          <li>Sarthak Mukherjee XC</li>
+        </ul>
+      </div>
+    </footer>
+    <!-- scripts -->
+    <script src="js/twinkle.js" defer></script>
+    <script src="js/decoder.js" defer></script>
+    <script src="js/autoplayer.js" defer></script>
+    <script src="js/user_exp.js" defer></script>
+    <script src="js/smoothScroll.js" defer></script>
+    <script>
+
+</script>
+  </body>
+</html>
